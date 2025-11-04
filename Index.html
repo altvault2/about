@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Clash Royale Statistics</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Your existing HTML content remains the same -->
+  <header class="site-header">
+    <div class="title-wrap">
+      <h1>Clash Royale Statistics</h1>
+    </div>
+    <div class="actions">
+      <button id="signupBtn" class="btn">Sign Up</button>
+    </div>
+  </header>
+
+  <!-- ... rest of your HTML ... -->
+
+  <!-- Signup Popup -->
+  <div id="signupPopup" class="popup" role="dialog" aria-hidden="true">
+    <div class="popup-content">
+      <button id="closePopup" class="close" aria-label="Close">✕</button>
+      <h2>Create Account</h2>
+      <form id="signupForm" novalidate>
+        <input id="email" type="email" placeholder="Email" required />
+        <input id="password" type="password" placeholder="Password" required />
+        <button id="submitSignup" type="submit" class="btn primary">Create</button>
+        <p id="signupMessage" class="muted small"></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
